@@ -43,10 +43,7 @@ def preset():
         new = input('Do you wish to go through the tutorial?(y/n): ')
     else:
         print(tutorial())
-    if new == 'y':
-        
-        
-    elif new == 'n':
-        print(countdown())
+    print(begin_game())
 
-print(begin_game())
+print(preset())
+
